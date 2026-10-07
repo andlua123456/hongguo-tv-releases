@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 11,
-  "version_name": "0.2.9",
+  "version_code": 12,
+  "version_name": "0.2.10",
   "min_sdk": 23,
-  "size": 12025886,
-  "sha256": "d8856d1b9ca3a7545d895db22d537813995c66a716dfde96afa9ab1850279d5a",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.9/hongguo-tv-0.2.9.apk",
-  "release_notes": "# 红果短剧 v0.2.9\n\n- 播放页新增真实点赞、评论和收藏计数：点赞与评论对应当前集，收藏对应整部剧，换集自动更新。\n- 计数以“万 / 亿”简洁显示；缺失数据保留占位，读取失败不影响播放，迟到响应不会覆盖当前集。\n- 新增打赏页面，微信与支付宝二维码并排展示；确认键可放大，返回后恢复原卡片焦点。\n- 打赏页面不展示姓名或联系方式，二维码图片中的姓名文字已去除。\n- 删除“我的 / 登录”中的下载代理说明，将相关入口改为“下载设置”。\n- 修正 Android 登录输入框困住焦点的问题：确认键进入输入，返回键完成输入并移到按钮；关闭输入法也会恢复方向键导航。\n- 上行短信验证新增可放大的本机二维码，辅助手机填写收件号码和内容；说明90秒从点击“我已发送”后开始计时，发送仍由用户确认。\n- 保留原包名、固定签名与应用内更新，覆盖升级保留账号与观看记录。\n\n适用于 Android TV，最低 Android 6，支持 ARM64、ARMv7 和 x86_64。",
-  "published_at": "2026-10-07T15:20:35.331425+00:00"
+  "size": 12026535,
+  "sha256": "6d5562ea49511db20fa30301e6db43dec3932784d0c9d113067107987933da6d",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.10/hongguo-tv-0.2.10.apk",
+  "release_notes": "# 红果短剧 Android TV 0.2.10\n\n- 修复手机号、验证码输入时，部分电视的系统键盘无法用方向键操作的问题。\n- 加强手机号输入框和“检查更新”按钮的圆角焦点高亮。\n- 移除“下载设置”按钮，保留应用更新的下载容错。\n- 发弹幕、选集、选季、清晰度、倍速和音量按钮增加统一 SVG 图标；文字与当前数值继续显示，Android 隐藏音量按钮。\n\n最低支持 Android 6。签名和包名保持一致，可覆盖升级并保留账号、收藏及观看记录。",
+  "published_at": "2026-10-07T15:45:16.592564+00:00"
 }
