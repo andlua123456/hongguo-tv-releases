@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 8,
-  "version_name": "0.2.6",
+  "version_code": 10,
+  "version_name": "0.2.8",
   "min_sdk": 23,
-  "size": 9599519,
-  "sha256": "3e9af6410b4a0f353376cbe6e8c21effc72ca58d49c176ce783a401d5d1cb81c",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.6/hongguo-tv-0.2.6.apk",
-  "release_notes": "# 红果短剧 v0.2.6\n\n- 正式版应用名称改为“红果短剧”，保留播放标志，启动图标使用圆角背景。\n- 侧栏图标增大至 32px，文字增大至 20px；调整窄屏侧栏宽度，登录项保持单行。\n- 右侧弹幕按钮向下可到全屏，全屏向上返回弹幕；进度条焦点改为当前位置圆点，左右快进快退保留。\n- “已连接”前新增小型 SVG 连接图标，根据连接状态显示颜色。\n- 补齐核心重启后的残留媒体缓存回收，保留运行中的核心目录；旧版无标记缓存到期后回收。\n\n正式签名 APK 可覆盖升级 v0.2.5，保留账号与记录。最低 Android 6，支持 arm64-v8a、armeabi-v7a、x86_64。\n\n保留约 512 MiB 的完成文件清理阈值；下载和解密中的文件可能让占用短暂超过阈值。\n\nGo race/vet、32 项 JavaScript 测试、缓存清理测试及旧 WebView 模拟验证通过。真实 Android 6 的桌面图标、遥控器和长期播放效果仍需设备复测。",
-  "published_at": "2026-10-07T13:58:40.414877+00:00"
+  "size": 9618307,
+  "sha256": "ccbb7f25f1c795d65c2b36c8976597ea39be7593be75702c0027e65d2e7dd393",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.8/hongguo-tv-0.2.8.apk",
+  "release_notes": "# 红果短剧 v0.2.8\n\n- “我的”提供当前版本、检查更新和下载代理设置；启动后每天最多自动检查一次，播放期间不弹窗。\n- 新版本展示更新内容，可选择立即更新或稍后。默认 ghfast 下载，失败时尝试 GitHub 直连；下载显示进度，可取消。\n- 完善升级容错：拒绝陈旧或不一致版本信息，备用源仍无有效结果时提示重试；断流和坏文件不复用，失败后可重新下载。\n- 安装前校验文件大小、SHA256、包名、实际版本和同一签名。系统确认安装，覆盖升级保留账号、收藏和历史。\n- 正式 APK 和版本信息通过独立公开下载仓库发布，源码保持私有。\n\n最低 Android 6，支持 ARM64、ARMv7 和 x86_64。当前未安装带更新功能的版本时，本版本需要先手动覆盖安装一次。",
+  "published_at": "2026-10-07T14:18:47.920571+00:00"
 }
