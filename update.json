@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 14,
-  "version_name": "0.2.12",
+  "version_code": 15,
+  "version_name": "0.2.13",
   "min_sdk": 23,
-  "size": 12030935,
-  "sha256": "5116f10d9ce5ae9b2783bf91174ca00ebe24796e4560d85b48d3477cecc83280",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.12/hongguo-tv-0.2.12.apk",
-  "release_notes": "修复登录输入和短信验证。\n\n- 手机号输入完成后返回获取验证码；验证码输入完成后返回登录，避免跳到检查更新。\n- 修正上行短信验证的请求参数，按原版实际字符串长度发送。\n- 新生成的短信验证独立计时，获取验证码和输入耗时不再占用它的本机等待时间；90秒查询期限保持独立。\n- 红果明确判定过期后清除失效验证，提示重新获取验证码，不自动重复发送短信。\n\n保留可用的系统数字键盘、账号和本机记录。最低 Android 6。系统键盘完成动作与真实短信确认仍需设备复测。",
-  "published_at": "2026-10-07T16:33:36.365410+00:00"
+  "size": 12036809,
+  "sha256": "c4ae2e1557c57b9309b57b257193ab13a7fb1a28ff8c91959cd26706be85d0b4",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.13/hongguo-tv-0.2.13.apk",
+  "release_notes": "登录改用应用内数字键盘，解决部分 Android TV 系统键盘输入后焦点跳到检查更新的问题。\n\n- 手机号、验证码按确认键打开数字键盘；方向键选择数字，确认键输入，也支持遥控器数字键。\n- 手机号输入完成后回到“获取验证码”，验证码输入完成后回到“登录”，不会自动发送短信或提交登录。\n- 返回键保留输入并回到原字段；支持删除、长度检查，验证码保留前导零。\n- 键盘打开期间限定焦点，更新提示不会抢占；切换页面或退后台关闭键盘并保留输入。\n\n保留账号、收藏、历史及现有短信验证流程。最低 Android 6，使用原正式签名，可覆盖升级。已通过旧 WebView 兼容模拟和焦点回归，真实 Android TV 遥控器仍需安装后复测。",
+  "published_at": "2026-10-07T17:04:40.240334+00:00"
 }
