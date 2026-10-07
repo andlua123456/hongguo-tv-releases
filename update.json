@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 19,
-  "version_name": "0.2.17",
+  "version_code": 20,
+  "version_name": "0.2.18",
   "min_sdk": 23,
-  "size": 14300969,
-  "sha256": "8c008f9af310af4a9261a844ec63cb1b2f557937631ffcb159a53f5a795dd68f",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.17/hongguo-tv-0.2.17.apk",
-  "release_notes": "缩短自动下一集的等待。\n\n- 当前集连续稳定播放 5 秒后，开始准备同季下一集；暂停、缓冲和跳转会重新计算稳定时间。\n- 自动下一集可在上一集历史保存期间起播，完成记录只提交一次，历史仍按顺序保存。\n- 保留播放文件校验；预下载失败或文件失效时，继续通过正常播放流程重试。\n- 预下载仍每次仅准备下一集，沿用现有缓存清理；首次播放、历史续播与手动选集保留原进度读取流程。\n\n最低 Android 6，使用原正式签名，可覆盖升级。隔离媒体、旧 WebView 模拟和历史写盘延迟回归已通过；真实 Android TV 换集速度仍需实机复测。",
-  "published_at": "2026-10-07T18:44:04.595027+00:00"
+  "size": 14302300,
+  "sha256": "0f16d5f97be6adccbfd3e336c4d9e2892441cddd10f9c60943db29b3541a72e4",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.18/hongguo-tv-0.2.18.apk",
+  "release_notes": "改善切集时的画面过渡。\n\n- 同一部剧自动下一集和手动选集取消加载海报，保留 loading 与目标集号，减少海报一闪而过的跳跃感。\n- 首次打开及切换另一部剧仍保留海报。\n- 重置视频源前先绘制纯黑过渡背景，起播时让视频在背景下恢复显示后再撤掉背景，避免提前暴露空的视频层。\n- canplay 不再提前撤掉准备状态；快速切换、取消、暂停和缓冲不会让旧回调误撤当前过渡。\n- 沿用原来的单个 loading、下一集提前准备及缓存清理，不设置固定的加载停留时间。\n\n最低 Android 6，使用原正式签名，可覆盖升级。旧 WebView 模拟与隔离媒体回归通过；Android 6 硬件视频层的最终显示仍需实机复测。",
+  "published_at": "2026-10-07T19:16:35.417307+00:00"
 }
