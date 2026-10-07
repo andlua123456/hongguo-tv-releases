@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 21,
-  "version_name": "0.2.19",
+  "version_code": 22,
+  "version_name": "0.2.20",
   "min_sdk": 23,
-  "size": 14303596,
-  "sha256": "442613ee5d6d11b9b5573a54b7d9eb15bf8a310d8cb7ad466f8f8bfe413c2da4",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.19/hongguo-tv-0.2.19.apk",
-  "release_notes": "把切集加载信息集中到画面中间。\n\n- 同剧自动下一集、手动选集仅显示 loading 和目标集号，不重复剧名。\n- 首次打开及切换另一部剧，把新剧名与目标集号放在同一个加载面板中，剧名最多显示两行。\n- 过渡期间隐藏左上角及下方重复的剧集信息，播放开始后按原控件状态恢复。\n- 保留单个 loading、换集准备速度、纯黑过渡及缓存清理，不增加固定停留时间；普通缓冲、失败提示和重试保持原行为。\n\n最低 Android 6，使用原正式签名，可覆盖升级。旧 WebView 模拟与隔离媒体回归通过；最终视觉仍需 Android 6 实机复测。",
-  "published_at": "2026-10-07T19:39:03.783016+00:00"
+  "size": 14303730,
+  "sha256": "84e4341201837ef4eeae660998c6714c044f7b0c5982e25e36a19e4f20f8ba4d",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.20/hongguo-tv-0.2.20.apk",
+  "release_notes": "普通海报卡片的焦点白框统一只围住海报。\n\n- 找剧、搜索、新剧推荐、历史、收藏、点赞和已上线预约采用相同的圆角白框。\n- 标题、续播集数、日期、评分和进度条保持原样，不再被整卡白框包住，也不随焦点放大。\n- 保留原遥控器移动、滚动加载和点击播放；图片尚未加载或加载失败时也能看到焦点。\n- 小缩略卡片、排行榜整行、日历和待上线预约列表保留原来的焦点样式。\n\n最低 Android 6，使用原正式签名，可覆盖升级。旧 WebView 布局模拟与隔离交互回归通过；最终视觉仍需 Android 6 实机复测。",
+  "published_at": "2026-10-07T20:02:29.531941+00:00"
 }
