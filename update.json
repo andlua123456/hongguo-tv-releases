@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "rocks.aston.hongguotv",
-  "version_code": 26,
-  "version_name": "0.2.24",
+  "version_code": 27,
+  "version_name": "0.2.25",
   "min_sdk": 23,
-  "size": 14309836,
-  "sha256": "b02b8b89b6a0b8f58ad0594ecf33eba05c9f453782870e4bd27f1ae8b3b6a261",
-  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.24/hongguo-tv-0.2.24.apk",
-  "release_notes": "观看历史新增「全部 / 未看完 / 已看完」筛选。\n\n- 标题下方使用圆角筛选按钮，粉色表示当前筛选，白框表示遥控器焦点。\n- 最后一集播放结束后归入「已看完」；只进入最后一集、看完中间集及缺少结束标记的旧云端记录归入「未看完」。多季短剧按当前这部/这一季判断。\n- 筛选后的列表继续支持滚动加载，返回播放前的筛选及卡片焦点；空列表也可用方向键切换筛选。\n- 筛选只改变显示，不修改账号或观看记录，收藏和点赞保持原来的展示。\n\n最低 Android 6，使用原正式签名，可覆盖升级并保留账号和记录。106 项 JavaScript 回归、12 项发行检查及旧 WebView 布局/焦点模拟通过；Android 6 实机请覆盖安装检查。",
-  "published_at": "2026-10-08T02:07:01.281101+00:00"
+  "size": 14310101,
+  "sha256": "ef216927500a3a82b8779a5afe8cbcf20b3e890c4e938e6b1a858a76c7a5ead8",
+  "download_url": "https://github.com/aston314/hongguo-tv-releases/releases/download/v0.2.25/hongguo-tv-0.2.25.apk",
+  "release_notes": "修正观看历史筛选，使「未看完 / 已看完」与 Mac 版判断一致。\n\n- 最近观看集数已到最后一集，就归入「已看完」，无需末集播放结束标记。此前云端末集记录错误归入「未看完」的问题已修正。\n- 「已看完」表示已看到末集；末集尚未播完时，继续播放仍恢复该集原有时间位置。\n- 中间集播放结束仍为「未看完」；总集数未知时不猜测状态。重新从第一集观看会回到「未看完」。\n- 保留滚动加载、遥控器焦点及播放返回，不修改账号或观看进度。\n\n已静态核对 Mac v1.1.6 的真实前端判断和历史模型，并与真实同步记录做只读对照。107 项 JavaScript 回归、12 项发行检查通过，兼容最低 Android 6，原正式签名可覆盖升级。",
+  "published_at": "2026-10-08T02:30:27.197518+00:00"
 }
